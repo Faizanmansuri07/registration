@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <div class="form-outer">
+       
+        <form action="https://public.herotofu.com/v1/bc81ac20-ad39-11ee-ae0b-a7e011fe96d3" method="post" accept-charset="UTF-8"" method="POST" >
+
+                <header>
+                    Register                    
+                </header>
+                <hr>
+              <div class="form-inner">
+                <label for> First Name</label>
+                   <input type="text" placeholder="First Name" name="first name" required>
+               </div>
+
+               <div class="form-inner">
+                <label for> Middle Name :</label>
+                <input type="text" placeholder="Middle Name" name="Middle name" required>
+            </div>
+            
+            <div class="form-inner">
+                <label for> Last Name</label>
+                <input type="text" placeholder="Last  Name" name="Last name" required>
+            </div>
+
+            <div class="form-inner">
+                <label for> Mobile</label>
+                <input type="number" placeholder="Mobile" name="mobile" required>
+            </div>
+            <label for="102">Select Gender : <br>
+            <div class="radio-box">
+            
+                <input type="radio" value="mail"  name="gender" id="102" required>Male
+            </label>
+                
+                    <label for="101">
+              <input type="radio" value="femail"  name="gender" id="101" required>Female
+            </label>
+           </div>
+
+            <div class="course">
+                <label for="course">Your Course</label><br>
+                <select name="course"  required>
+                    <option value="BCA" name="BCA">BCA</option>
+                    <option value="MCA" name="MCA">MCA</option>
+                    <option value="B.COM" name="BCOM">B.COM</option>
+                    <option value="M.COM" name="M.COM">M.COM</option>
+                    <option value="B.SC" name="B.SC">B.SC</option>
+                    <option value="M.SC" name="M.SC">M.SC</option>
+                    <option value="B-ED" name="B.SC">B-ED</option>
+                </select>
+            </div>
+           
+            <div class="city">
+                <label for="course">Your City</label><br>
+                <select name="city" required>
+                        <option value="chhapi" name="chhapi">chhapi</option>
+                        <option value="palanpur" name="palanpur">palanpur</option>
+                        <option value="deesa" name="deesa">Deesa</option>
+                        <option value="patan" name="patan">patan</option>
+                        <option value="mehsana" name="mehsana">mehsana</option>
+                </select>             
+            </div>
+            <label for="year">Select Year</label>
+            <div class="year" required>
+                 <label for="201">
+                <input type="radio" value="FY" name="Year" id="201">FY
+            </label>
+            <label for="201">
+                <input type="radio" value="SY" name="Year" id="202">SY
+            </label>
+            <label for="201">
+                <input type="radio" value="TY" name="Year" id="203">TY
+                <label for="201">
+            </div>
+            <div class="feedbak">
+                <textarea rows="10" cols="48" placeholder="Your Feedback"></textarea>
+            </div>
+         </form>
+         <div class="button">
+            <input type="submit">
+         </div>
+
+    </div>
+
+</body>
+</html>
