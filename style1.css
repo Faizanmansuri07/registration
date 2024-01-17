@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +9,8 @@ body{
     display: flex;
     justify-content: center;
     margin :0 auto;
-    background: url(1397718.png);
+   /* background: url(1397718.png);*/
+   background-color: #f9f9f9;
    
 }
 header{
@@ -25,11 +24,11 @@ header{
     width: 400px;
     background: color #fff;
     margin-top: 30px;
-    border:2px solid rgba(255, 255, 255, .2);
+    border:2px solid rgb(110, 110, 194);
     border-radius: 15px;
     padding:50px;
    background: transparent;
-   backdrop-filter: blur(200px);
+  /* backdrop-filter: blur(20px);*/
 }
 
 .form-inner input{
@@ -39,7 +38,7 @@ header{
     margin-bottom: 17px;
     border-radius: 4px;
     outline: none;
-    border: none;
+    border: 2px solid rgb(110,110,194);
     padding-left:8px;
     font-weight: 600;
     
@@ -49,23 +48,31 @@ header{
 .radio-box{
     width: 100%;
     height: 40px;
-    border:2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgb(110,110,194);
     background: white;
     border-radius:4px ;
     outline: none;
-    border: none;
+
    
 }
 .radio-box input{
  
     margin-top: 15px;
     margin-left: 80px;
+   
+}
+.course  select ,option{
+   outline none;
+   border: 2px solid rgb(110,110,194);
+
 }
 .course ,label{
     margin-top: 15px;
    margin-bottom: 20px;
    outline: none;
-   border: none;
+   
+  
+
 }
 .course select,option{
     height: 40px;
@@ -81,11 +88,17 @@ header{
     border-radius: 4px;
     margin-bottom: 20px;
 }
+
+.city select ,option{
+    outline:none;
+    border: 2px solid rgb(110,110,194);
+}
 .year{
     width: 100%;
     height: 40px;
     background: white;
-
+    border: none;
+    border: 2px solid rgb(110,110,194);
     border-radius:4px ;
     margin-bottom: 20px;
 }
@@ -94,6 +107,7 @@ header{
  
     margin-top: 15px;
     margin-left: 80px;
+   
 }
 .button{
     margin-top: 20px;
@@ -107,17 +121,23 @@ header{
     border-radius: 10px;
     font-size: 25px;
     outline: none;
-    border: none;
+    
+    border: 2px solid rgb(110,110,194);
     font-weight: 500;
    
     
 }
 textarea{
    
+    width: 100%;
     border-radius: 5px;
-    outline: none;
     border: none;
+    border: 2px solid rgb(110,110,194);
 }
 hr{
     margin-bottom: 20px;
 }
+
+
+   
+    
